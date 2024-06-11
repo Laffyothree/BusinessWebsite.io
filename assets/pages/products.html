@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="/assets/img/favicon.png" type="img/web__logo">
+
+      <!--=============== ICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="/style.css">
+
+      <title>Laffyothree's Bakery</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="/index.html" class="nav__logo">Laffyothree's Bakery</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="/index.html" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="/assets/pages/about__us.html" class="nav__link">About Us</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="/assets/pages/news.html" class="nav__link">Updates</a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="/assets/pages/products.html" class="nav__link">Our Products</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="/assets/pages/location.html" class="nav__link">Location</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+
+               <img src="/assets/img/bread-4.png" alt="image" class="nav__img-1">
+               <img src="/assets/img/bread-1.png" alt="image" class="nav__img-2">
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== PRODUCTS ====================-->
+         <section class="favorite section" id="favorite">
+            <h2 class="section__title">Our Products</h2>
+
+            <div class="favorite__container container grid">
+
+            
+               <div class="modal__container" id="modal-container">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-1.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Whole Grain</h1>
+                      <p class="modal__description">
+                        A type of bread that is made from whole grains, 
+                        which means that it contains the bran, germ, and endosperm of the grain. <br>
+
+                        <br>
+
+                        This type of bread is considered a healthier option compared to refined white bread 
+                        because it retains more nutrients and fiber.
+                      </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-1.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Whole Grain</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">11.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal">
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+
+
+               
+               <div class="modal__container" id="modal-container1">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-2.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Rye</h1>
+                      <p class="modal__description"> Rye bread is made using a combination of wheat and rye flours instead of just using wheat.
+                        It is a cereal grain like corn, wheat, and barley. <br>
+
+                     <br>
+               
+                        Rye bread is healthier for you in the sense that it has a lower glycemic index than most wheat flour breads.
+                     </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+            
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-2.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Rye</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">13.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal1">
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+
+
+
+               <div class="modal__container" id="modal-container2">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-3.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Whole Wheat</h1>
+                      <p class="modal__description">
+                        A type of bread made from whole wheat flour, which is made from the entire wheat grain, 
+                        including the bran, germ, and endosperm. <br>
+
+                        <br>
+
+                        This type of bread is considered a healthier option compared to refined white bread, 
+                        as it retains more nutrients and fiber.
+                      </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-3.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">French Whole Wheat</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">10.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal2">
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+
+
+
+               <div class="modal__container" id="modal-container3">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-4.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Sliced Brown Bread</h1>
+                      <p class="modal__description">
+                        A popular choice for many bread lovers. <br>
+
+                        <br>
+
+                        It’s made from whole grains and is a great source of fiber, 
+                        making it a healthy option for sandwiches, toast, and snacks.
+                      </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-4.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Sliced Brown Bread</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">14.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal3">
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+
+
+
+
+               <div class="modal__container" id="modal-container4">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-5.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Italian Baguette</h1>
+                      <p class="modal__description">
+                        also known as Stirato, is a type of rustic Italian bread 
+                        that is similar to the traditional French baguette. <br>
+
+                        <br>
+
+                        It is characterized by its crispy crust and open crumb, with a slightly chewy texture.
+                      </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-5.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Italian Baguette</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">12.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal4">
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+
+
+
+
+               <div class="modal__container" id="modal-container5">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-6.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Uzbek Pastries</h1>
+                      <p class="modal__description">
+                        Uzbek pastries are a staple in Uzbek cuisine, offering a wide range of sweet 
+                        and savory treats that are both delicious and visually appealing. <br>
+
+                        <br>
+
+                        With a wide choices of Manti, Somsas, Khalva, Navat, Sumalyak, Pashmak and more.
+                      </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-6.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Uzbek Pastries</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">15.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal5">
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+
+
+
+
+               <div class="modal__container" id="modal-container6">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-7.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Multigrain</h1>
+                      <p class="modal__description">
+                        A type of bread dough that is prepared with a combination of two or more types of grain. <br>
+
+                        <br>
+                        Multigrain bread typically incorporates a variety of grains and seeds throughout the dough. 
+                        This results in a more complex flavor profile and a softer, more tender crumb.
+                      </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-7.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Multigrain</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">12.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal6"> 
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+
+
+
+               <div class="modal__container" id="modal-container7">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-8.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Sourdough</h1>
+                      <p class="modal__description">
+                        A bread made by the fermentation of dough using wild lactobacillaceae and yeast. <br>
+
+                        <br>
+
+                        It is a hard crust bread, usually with tangy taste that can vary form barely perceptible to definitely sour, 
+                        depending on the recipe and the sourdough base. In texture, it is quite like a French bread.
+                      </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-8.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Sourdough</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">10.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal7">
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+
+
+
+
+               <div class="modal__container" id="modal-container8">
+                  <div class="modal__content">
+                      <div class="modal__close close-modal" title="Close">
+                           <i class='bx bx-x'></i>
+                      </div>
+                      
+                      <img src="/assets/img/favorite-bread-9.png" alt="image" class="modal__img">
+
+                      <h1 class="modal__title">Boule de Pain</h1>
+                      <p class="modal__description">
+                        A type of bread that originated in France, known for its rich history, 
+                        diverse varieties, and distinct characteristics. <br>
+
+                        <br>
+
+                        Often served with a variety of toppings, such as cheese, meats, and spreads, which can enhance the flavor and texture of the bread.
+                      </p>
+  
+                      <button class="modal__button modal__button-width">
+                              Add to cart
+                      </button>
+  
+                      <button class="modal__button-link close-modal">
+                              Go back
+                      </button>
+                  </div>
+               </div>
+
+               <article class="favorite__card">
+                  <img src="/assets/img/favorite-bread-9.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Boule de Pain</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">10.00 aed</h3>
+                  </div>
+
+                  <button class="favorite__button button" id="open-modal8">
+                     <i class="ri-arrow-up-s-line"></i>
+                  </button>
+               </article>
+            </div>
+         </section>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="/assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="/main.js"></script>
+   </body>
+</html>
